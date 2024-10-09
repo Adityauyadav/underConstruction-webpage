@@ -140,27 +140,41 @@ p {
     gap: 1rem;
 }
 
-.button {
-    margin-top: 2vh; 
-    background: #000000;
-    font-weight: 400;
-    border: 0.3vh solid #FFFFFF; 
-    padding: 0.3rem 2.5vw; 
-    color: #FFFFFF;
-    text-decoration: none;
-    font-size: 1.5vw;
+.button{
     opacity: 0; 
     transition: opacity 1s; 
 }
 
+#contactButton{ 
+    margin-top: 2vh; 
+    background: #000000;
+    font-weight: 400;
+    border: 0.2vh solid #FFFFFF; 
+    padding: 0.3rem 2.5vw; 
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.5vw;
+
+
+}
+
+#brochureButton{
+    margin-top: 2vh; 
+    background: #ffffff;
+    font-weight: 400;
+    border: 0.2vh solid #FFFFFF; 
+    padding: 0.3rem 2.5vw; 
+    color: #0e0e0e;
+    text-decoration: none;
+    font-size: 1.5vw;
+
+
+
+}
 .button.show {
     opacity: 1; 
 }
 
-.button:hover {
-    background: #FFFFFF;
-    color: #000000;
-    font-weight: 500;
-}
+
 
 
