@@ -148,8 +148,9 @@ p {
 #contactButton{ 
     margin-top: 2vh; 
     background: #000000;
-    font-weight: 400;
-    border: 0.2vh solid #FFFFFF; 
+    font-weight: 200;
+    border: 0.1vh solid #FFFFFF; 
+    border-radius: 0.2rem;;
     padding: 0.3rem 2.5vw; 
     color: #FFFFFF;
     text-decoration: none;
@@ -160,11 +161,12 @@ p {
 
 #brochureButton{
     margin-top: 2vh; 
-    background: #ffffff;
-    font-weight: 400;
-    border: 0.2vh solid #FFFFFF; 
+    background: #144CFC;
+    font-weight: 200;
+    border: 0.1vh solid #144CFC; 
+    border-radius: 0.2rem;
     padding: 0.3rem 2.5vw; 
-    color: #0e0e0e;
+    color: #ffffff;
     text-decoration: none;
     font-size: 1.5vw;
 
