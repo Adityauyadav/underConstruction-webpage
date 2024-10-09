@@ -33,5 +33,20 @@ const thankYouText = "thank you for contacting adveirne";
                 });
             });
         }
+        window.onload = function() {
+            setTimeout(startTyping, 3700); 
+        };
 
-        window.onload = startTyping;
+        setTimeout(function() {
+            document.querySelector('.svg1').classList.add('final');
+            document.querySelector('.svg2').classList.add('final');
+            document.querySelector('.svg3').classList.add('final');
+        }, 3200); 
+
+        setTimeout(() => {
+        const loadingScreen = document.querySelector('.loading-screen');
+        loadingScreen.classList.add('slide-up');}, 3600);
+
+        setTimeout(() => {
+        const loadingScreen = document.querySelector('.loading-screen');
+        loadingScreen.style.display = 'none'; }, 6100);
